@@ -33,10 +33,12 @@ function App() {
               <span className="text-white">root@system:</span><span className="text-blue-400">~</span>$ whoami
             </p>
             <h1 className="text-4xl md:text-6xl font-bold mb-4 tracking-tight">
-              Desenvolvedor Full Stack <span className="animate-pulse">_</span>
+              Desenvolvedor de Software <span className="animate-pulse">_</span>
             </h1>
             <p className="max-w-2xl text-terminal-green/80 text-lg leading-relaxed mb-8">
-              &gt; Olá, eu construo sistemas escaláveis, interfaces dinâmicas e resolvo problemas complexos utilizando tecnologias modernas. Focado em performance e código limpo.
+              &gt; Olá, eu sou Marcelo Santos. Sou Desenvolvedor de sistemas Jr e estudante de Ciência da Computação (UFS). 
+              Com mais de 2 anos de experiência prática construindo sistemas na Companhia de Saneamento de Sergipe (DESO), meu foco é transformar regras de negócio complexas em APIs robustas e escaláveis. 
+              Minha stack principal transita entre Java, PHP e C#, sempre guiado por princípios de Clean Code, SOLID e cultura DevOps.
             </p>
             <div className="flex gap-4 pt-4">
               <a href="#projetos" className="bg-terminal-green text-terminal-dark px-6 py-2 font-bold hover:bg-white transition-colors">
@@ -58,9 +60,9 @@ function App() {
           <div className="bg-terminal-darker border border-terminal-green/30 p-6 rounded-none">
             <pre className="text-sm md:text-base overflow-x-auto text-terminal-green/90">
               <code>{`{
-  "frontend": ["React", "Vue", "TailwindCSS", "Next.js"],
-  "backend": ["Java", "Spring Boot", "C#", "Node.js"],
-  "database": ["PostgreSQL", "SQL Server", "Redis", "MongoDB"],
+  "frontend": ["React", "TailwindCSS"],
+  "backend": ["Java", PHP, "C#"],
+  "database": ["PostgreSQL", "SQL Server", "MySQL""],
   "devops": ["Docker", "RabbitMQ", "CI/CD", "Linux"],
   "status": "Always Learning"
 }`}</code>
@@ -76,11 +78,11 @@ function App() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ProjectCard 
-              title="CSM (Customer Success Management)"
-              description="Plataforma de gestão de sucesso do cliente. Centraliza os dados de saúde dos clientes, tickets de suporte e rotinas de engajamento em um só lugar."
-              technologies={["Java", "SpringBoot", "Docker", "PostgreSQL", "React"]}
+              title="CSM (Central de Sistemas de Marcelo)"
+              description="É um provedor de Identity and Access Management (IAM) de código aberto, construído para atuar como o coração da segurança em um ecossistema corporativo de microsserviços."
+              technologies={["Java", "SpringBoot", "Docker", "PostgreSQL"]}
               status="Ativo"
-              url="#"
+              url="https://github.com/MarceloStos/CSM"
             />
             
             <ProjectCard 
@@ -94,7 +96,7 @@ function App() {
             <ProjectCard 
               title="Sistema de Pagamentos"
               description="Microsserviço de pagamentos de alta escalabilidade. Responsável pelo processamento de transações e integração com gateways."
-              technologies={["Java 17", "Spring Boot 3", "RabbitMQ", "Redis"]}
+              technologies={["Java 17", "SpringBoot", "RabbitMQ"]}
               status="Análise"
             />
           </div>
@@ -109,13 +111,13 @@ function App() {
           <div className="border border-terminal-green p-6 max-w-2xl">
             <p className="mb-6">Connection established. Awaiting signals...</p>
             <div className="flex flex-col gap-4">
-              <a href="#" className="flex items-center gap-3 hover:text-white transition-colors">
+              <a href="https://github.com/marcelostos" className="flex items-center gap-3 hover:text-white transition-colors">
                 <Code2 size={20} /> github.com/marcelostos
               </a>
-              <a href="#" className="flex items-center gap-3 hover:text-white transition-colors">
-                <Globe size={20} /> linkedin.com/in/marcelostos
+              <a href="https://www.linkedin.com/in/marcelostoscrz" className="flex items-center gap-3 hover:text-white transition-colors">
+                <Globe size={20} /> linkedin.com/in/marcelostoscrz
               </a>
-              <a href="mailto:email@example.com" className="flex items-center gap-3 hover:text-white transition-colors">
+              <a href="mailto:marcelostos.dev@gmail.com" className="flex items-center gap-3 hover:text-white transition-colors">
                 <Mail size={20} /> Enviar email diretamente
               </a>
             </div>
